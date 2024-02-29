@@ -111,7 +111,7 @@ max-width: 335px;
         padding: 100px;
     }
     .list-vegetables {
-        gap: 21px 28px;
+        gap: 28px 21px;
     }
     .card-vegetables {
         flex-basis: calc((100% - 56px) / 3);

@@ -2,20 +2,44 @@
   min-width: 375px;
 }
 .how-it-works-image-container {
+  padding: 40px 0;
   background-color: #7a3145;
 }
 .how-it-works-image {
-  padding: 40px 20px;
-  border-radius: 30%;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 .how-it-works-text-container {
+  padding: 80px 20px;
   background-color: #576f35;
+  display: flex;
+  flex-direction: column;
 }
 .how-it-works-title {
+  width: 335px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
+
+.how-it-works-span {
+  color: rgba(251, 251, 251, 0.3);
+}
+
 .how-it-works-text {
+  max-width: 335px;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
 }
 .how-it-works-list {
+  list-style: none;
 }
 .how-it-works-item {
 }

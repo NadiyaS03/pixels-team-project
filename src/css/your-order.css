@@ -30,6 +30,7 @@
     flex-wrap: wrap;
 }
 .form_container {
+
     padding: 40px 20px;
     background-color: #FBFBFB;
     border-radius: 30px;
@@ -50,6 +51,11 @@
 .form-span-two {
     color: #576F35;
 }
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 .order-input {
     width: 100%;
@@ -63,7 +69,7 @@
     line-height: 1.29;
     letter-spacing: -0.28px;
     padding: 14px 16px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 .order-input::placeholder {
     color: #141414;
@@ -73,6 +79,7 @@
     letter-spacing: -0.28px;
 }
 .order-textarea {
+    padding: 14px 13px;
     width: 100%;
     height: 91px;
     border-radius: 15px;
@@ -82,10 +89,10 @@
     font-weight: 500;
     line-height: 1.29px;
     letter-spacing: -0.28px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .order-textarea::placeholder {
-    padding: 14px 13px;
+     /* padding: 14px 13px; */
     color: #141414;
     font-size: 14px;
     font-weight: 500;
@@ -108,6 +115,49 @@
     font-weight: 600;
     line-height: 1.29;
     letter-spacing: -0.21px;
+}
+.order-input:focus {
+  border-color: #7A3145;
+}
+
+/* стилізація інпута при не валідному значенні */
+.order-input:not(:placeholder-shown):invalid {
+  border-color: #E74A3B;
+}
+
+/* стилізація інпута при валідному значенні */
+.order-input:not(:placeholder-shown):valid {
+  border-color: #3CBC81;
+}
+
+.text-valid,
+.text-invalid {
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 4px;
+  display: none;
+}
+
+.text-valid {
+  color: #3CBC81;
+}
+
+.text-invalid {
+  color: #E74A3B;
+}
+
+/* стилізація інформаційного текста при валідному значенні в інпуті */
+.order-input:not(:placeholder-shown):valid ~ .text-valid {
+  display: block;
+}
+
+/* стилізація інформаційного текста при не валідному значенні в інпуті */
+.order-input:not(:placeholder-shown):invalid ~ .text-invalid {
+  display: block;
+}
+
+.order-send-button:is(:hover, :focus) {
+   border-color: brown;
 }
 .pic_container {
     width: 100%;
@@ -183,14 +233,15 @@
         letter-spacing: -0.32px;
     }
     .order-textarea {
+        padding-top: 16px;
+        padding-bottom: 16px;
         height: 95px;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.32px;
     }
     .order-textarea::placeholder {
-        padding-top: 16px;
-        padding-bottom: 16px;
+        
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.32px;        

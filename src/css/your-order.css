@@ -220,3 +220,24 @@
         letter-spacing: -0.48px;
     }
 }
+@media screen and (min-width: 1280px) {
+    .section {
+        padding: 100px 0;
+        max-width: 1280px;
+    }
+    .your-order_description {
+        margin-bottom: 50px;
+    }
+    .your-order_form-and-pic {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+    .form_container {
+        width: calc(100% - 24px / 2);
+        padding: 50px;
+        margin-bottom: 0;
+    }
+    .order_social-paragraph {
+        margin-bottom: 15px;
+    }
+}

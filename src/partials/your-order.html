@@ -1,28 +1,40 @@
-<section class="section Your-order">
-  <div class="container Your-order_container">
-    <div class="Your-order_description">
-      <h3 class="Your-order_header">
-        Fresh <span>Harvest</span> Box has got you covered
+<section class="section your-order">
+  <div class="container your-order_container">
+    <div class="your-order_description">
+      <h3 class="your-order_header">
+        Fresh <span class="your-order_span">Harvest</span> Box has got you covered
       </h3>
-      <p class="Your-order_text">
+      <p class="your-order_text">
         Our boxes are packed with delicious, nutritious vegetables, perfect for
         anyone looking to eat healthier or support local farmers. Order your box
         today and start enjoying the best that nature has to offer!
       </p>
     </div>
-    <div class="Your-order_form-and-pic">
+    <div class="your-order_form-and-pic">
       <div class="form_container">
-        <p>
+        <p class="form-header-paragraph">
           Ordering <span class="form-span-one">from us</span> is quick and easy!
           Fill out <span class="form-span-two">the form</span> below and we will
           contact you !
         </p>
         <form class="order-form">
           <div class="order-field">
-            <input type="text" name="user-name" id="" class="order-input" placeholder="Full Name" />
+            <input
+              type="text"
+              name="user-name"
+              id=""
+              class="order-input"
+              placeholder="Full Name"
+            />
           </div>
           <div class="order-field">
-            <input type="text" name="user-email" id="" class="order-input" placeholder="Email" />
+            <input
+              type="text"
+              name="user-email"
+              id=""
+              class="order-input"
+              placeholder="Email"
+            />
           </div>
           <div class="order-field-textarea">
             <textarea
@@ -32,12 +44,31 @@
               placeholder="Comment"
             ></textarea>
           </div>
-          <button type="submit" class="order-send-button"></button>
+          <button type="submit" class="order-send-button">send</button>
         </form>
       </div>
       <div class="pic_container">
-        <picture></picture>
-        <p>Follow us on our social networks:</p>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/img/your-order-pictures/your-order-1x.jpg 1x /img/your-order-pictures/your-order-2x.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/img/your-order-pictures/your-order-tab-1x.jpg 1x /img/your-order-pictures/your-order-tab-2x.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="/img/your-order-pictures/your-order-mob-1x.jpg 1x /img/your-order-pictures/your-order-mob-2x.jpg 2x"
+          />
+          <img
+            src="/img/your-order-pictures/your-order-mob-1x.jpg"
+            alt="Soc networks picture"
+            class="order_item-pic"
+            width="528"
+          />
+        </picture>
+        <p class="order_social-paragraph">Follow us on our social networks:</p>
         <ul class="order_social-list">
           <li class="order_social-item">
             <a href="https://www.instagram.com/goitclub/" class="social_text"

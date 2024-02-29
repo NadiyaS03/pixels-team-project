@@ -1,0 +1,23 @@
+.how-it-works {
+  min-width: 375px;
+}
+.how-it-works-image-container {
+  background-color: #7a3145;
+}
+.how-it-works-image {
+  padding: 40px 20px;
+  border-radius: 30%;
+}
+.how-it-works-text-container {
+  background-color: #576f35;
+}
+.how-it-works-title {
+}
+.how-it-works-text {
+}
+.how-it-works-list {
+}
+.how-it-works-item {
+}
+.how-it-works-item-text {
+}

@@ -85,7 +85,7 @@
     }
 
     .review-block {
-        max-width: 556px;
+        min-width: 556px;
         margin-bottom: 50px;
 
     }
@@ -93,11 +93,9 @@
     .review-titel {
         font-size: 64px;
         font-weight: 600;
-        line-height: 1;
+        line-height: 100%;
         margin-bottom: 25px;
-
     }
-
     .review-text {
         font-weight: 500;
     }

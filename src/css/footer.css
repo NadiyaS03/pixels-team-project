@@ -16,13 +16,19 @@
   margin-bottom: 40px;
 }
 .footer_logo-link {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.29;
-  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 .icon-logo {
+  fill: #fbfbfb;
   stroke: #fbfbfb;
+}
+.icon-GreenHarvest {
+  width: 148px;
+  height: 12px;
+  display: inline-block;
+  stroke: #fbfbfb;
+  fill: #fbfbfb;
 }
 .footer-paragraph {
   font-size: 14px;
@@ -96,6 +102,15 @@
   .footer_logo-with-text {
     width: 265px;
     gap: 25px;
+  }
+  .icon-logo {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+  .icon-GreenHarvest {
+    width: 168px;
+    height: 15px;
   }
   .footer-paragraph {
     font-size: 16px;

@@ -6,9 +6,9 @@
   --font-family: 'Inter Tight', sans-serif;
 }
 .container {
-  max-width: 375px;
   padding: 0 20px;
 }
+
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;

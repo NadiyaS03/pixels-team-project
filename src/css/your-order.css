@@ -2,6 +2,14 @@
   background: #7a3145;
   padding: 80px 0;
 }
+@media screen and (max-width: 374px) {
+  .your-order {
+    max-width: 374px;
+  }
+  .your-order_container {
+    max-width: 320px;
+  }
+}
 .your-order_container {
   width: 375px;
   margin: 0 auto;
@@ -90,9 +98,9 @@
   line-height: 1.29px;
   letter-spacing: -0.28px;
   margin-bottom: 5px;
+  resize: none;
 }
 .order-textarea::placeholder {
-  /* padding: 14px 13px; */
   color: #141414;
   font-size: 14px;
   font-weight: 500;
@@ -195,7 +203,7 @@
     padding: 100px 0;
   }
   .your-order_container {
-    width: 628px;
+    width: 768px;
   }
   .your-order_description {
     margin-bottom: 50px;
@@ -277,7 +285,7 @@
     padding: 100px 0;
   }
   .your-order_container {
-    width: 1080px;
+    width: 1280px;
   }
   .your-order_description {
     margin-bottom: 50px;

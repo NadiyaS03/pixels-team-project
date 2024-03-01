@@ -63,13 +63,14 @@
   line-height: 1.28;
   letter-spacing: 0.015em;
   margin-bottom: 14px;
+  letter-spacing: -0.03em;
 }
 
-/* @media screen and (max-width: 374px) {
+@media screen and (max-width: 374px) {
   .title-vegetables {
     font-size: 38px;
   }
-} */
+}
 
 @media screen and (min-width: 768px) {
   .container-vegetables {
@@ -89,6 +90,7 @@
   .text-vegetables {
     font-size: 16px;
     line-height: 1.25;
+    letter-spacing: -0.03em;
   }
 
   .list-vegetables {

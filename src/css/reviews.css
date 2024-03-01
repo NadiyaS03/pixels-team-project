@@ -1,142 +1,141 @@
 .container-review {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
 }
 
 .review-titel {
-    color: #141414;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: -0.015em;
-    text-transform: uppercase;
-    margin-bottom: 20px;
+  color: #141414;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .review-block {
-    max-width: 335px;
-    margin-bottom: 40px;
-
+  margin-bottom: 40px;
 }
-
-.review-titel>span {
-    color: #576F35;
+.review-list {
+  min-width: 335px;
+}
+.review-title-part {
+  color: #576f35;
 }
 
 .review-text {
-    display: block;
-    color: #141414;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29;
-
+  display: block;
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.023em;
 }
-
+.review-item-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .review-item {
-    padding: 20px 16px;
-    border-radius: 24px;
-    border: 1px solid rgba(122, 49, 69, 0.30);
-    background: #FBFBFB;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start
+  padding: 20px 16px;
+  min-width: 335px;
+  border-radius: 24px;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  background: #fbfbfb;
 }
-
+.review-list .review-item:nth-child(2),
+.review-list .review-item:nth-child(3) {
+  display: none;
+}
 .review-img {
-    display: block;
-    margin-bottom: 24px;
+  align-items: center;
+  display: block;
+  margin-bottom: 24px;
 }
 
 .review-subtitel {
-    color: #040306;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-    margin-bottom: 8px;
-}
-
-
-.review-none-mob {
-    display: none;
+  color: #040306;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
 }
 
 .review-item-text {
-    color: rgba(4, 3, 6, 0.40);
-    text-align: center;
-    font-weight: 500;
-    line-height: 1.29;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
 
 @media only screen and (max-width: 374px) {
-    .review-titel {
-        font-size: 38px;
-    }
+  .review-titel {
+    font-size: 38px;
+  }
 }
 @media only screen and (min-width: 768px) {
+  .container-review {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    .container-review {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
+  .review-block {
+    max-width: 553px;
+    margin-bottom: 50px;
+  }
 
-    .review-block {
-        min-width: 556px;
-        margin-bottom: 50px;
+  .review-titel {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+  }
+  .review-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -0.024em;
+  }
 
-    }
+  .review-list {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+  }
+  .review-list .review-item:nth-child(2) {
+    display: flex;
+  }
+  .review-item {
+    padding: 20px;
+  }
 
-    .review-titel {
-        font-size: 64px;
-        font-weight: 600;
-        line-height: 100%;
-        margin-bottom: 25px;
-    }
-    .review-text {
-        font-weight: 500;
-    }
+  .review-subtitel {
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
 
+  .review-item-text {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  @media only screen and (min-width: 1280px) {
     .review-list {
-        display: flex;
-        justify-content: center;
-        gap: 18px;
+      gap: 25px;
     }
-
+    .review-list .review-item:nth-child(3) {
+      display: flex;
+    }
     .review-item {
-        padding: 20px;
+      display: flex;
     }
-
-    .review-subtitel {
-        font-size: 18px;
-        line-height: 1.10;
-        /* 19.8px */
-        letter-spacing: -0.02em;
-    }
-
-    .review-item-text {
-        font-size: 16px;
-        line-height: 1.40;
-        /* 22.4px */
-    }
-
-    .review-none-tab {
-        display: flex;
-
-    }
-}
-
-@media only screen and (min-width: 1280px) {
-
-    .review-list {
-        gap: 25px;
-    }
-
-    .review-item {
-        display: flex;
-
-    }
+  }
 }

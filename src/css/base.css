@@ -1,6 +1,9 @@
-body {
-  font-family: 'Inter Tight', sans-serif;
-  color: #fbfbfb;
+:root {
+  --text: #141414;
+  --background: #576f35;
+  --background-2: #7a3145;
+  --main-text: #fbfbfb;
+  --font-family: 'Inter Tight', sans-serif;
 }
 .container {
   max-width: 375px;

@@ -1,8 +1,10 @@
-.section {
+.your-order {
     background: #7A3145;
-    max-width: 375px;
-    margin: 0 auto;
     padding: 80px 0;
+}
+.your-order_container {
+    width: 375px;
+    margin: 0 auto;
 }
 .your-order_description {
     margin-bottom: 40px;
@@ -30,7 +32,6 @@
     flex-wrap: wrap;
 }
 .form_container {
-
     padding: 40px 20px;
     background-color: #FBFBFB;
     border-radius: 30px;
@@ -69,7 +70,6 @@
     line-height: 1.29;
     letter-spacing: -0.28px;
     padding: 14px 16px;
-    /* margin-bottom: 15px; */
 }
 .order-input::placeholder {
     color: #141414;
@@ -191,9 +191,11 @@
     letter-spacing: -0.36px;
 }
 @media screen and (min-width: 768px) {
-    .section {
-        max-width: 768px;
+    .your-order {
         padding: 100px 0;
+    }
+    .your-order_container {
+        width: 628px;
     }
     .your-order_description {
         margin-bottom: 50px;
@@ -272,9 +274,11 @@
     }
 }
 @media screen and (min-width: 1280px) {
-    .section {
+    .your-order {
         padding: 100px 0;
-        max-width: 1280px;
+    }
+    .your-order_container {
+        width: 1080px;
     }
     .your-order_description {
         margin-bottom: 50px;

@@ -1,133 +1,141 @@
 .your-order {
-    background: #7A3145;
-    padding: 80px 0;
+  background: #7a3145;
+  padding: 80px 0;
+}
+@media screen and (max-width: 374px) {
+  .your-order {
+    max-width: 374px;
+  }
+  .your-order_container {
+    max-width: 320px;
+  }
 }
 .your-order_container {
-    width: 375px;
-    margin: 0 auto;
+  width: 375px;
+  margin: 0 auto;
 }
 .your-order_description {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 .your-order_header {
-    color: #FBFBFB;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: -0.72px;
-    text-transform: uppercase;
-    margin-bottom: 29px;
+  color: #fbfbfb;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.72px;
+  text-transform: uppercase;
+  margin-bottom: 29px;
 }
 .your-order_span {
-    color: rgba(251, 251, 251, 0.30);
+  color: rgba(251, 251, 251, 0.3);
 }
 .your-order_text {
-    color: #FBFBFB;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
 }
 .your-order_form-and-pic {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .form_container {
-    padding: 40px 20px;
-    background-color: #FBFBFB;
-    border-radius: 30px;
-    margin-bottom: 20px;
+  padding: 40px 20px;
+  background-color: #fbfbfb;
+  border-radius: 30px;
+  margin-bottom: 20px;
 }
 .form-header-paragraph {
-    color: #141414;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.08;
-    letter-spacing: -0.36px;
-    text-transform: uppercase;
-    margin-bottom: 40px;
+  color: #141414;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
 }
 .form-span-one {
-    color: #7A3145;
+  color: #7a3145;
 }
 .form-span-two {
-    color: #576F35;
+  color: #576f35;
 }
 .order-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .order-input {
-    width: 100%;
-    height: 46px;
-    border-radius: 30px;
-    border: 1px solid rgba(20, 20, 20, 0.20);
-    background: transparent;
-    color: #141414;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29;
-    letter-spacing: -0.28px;
-    padding: 14px 16px;
+  width: 100%;
+  height: 46px;
+  border-radius: 30px;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  background: transparent;
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+  padding: 14px 16px;
 }
 .order-input::placeholder {
-    color: #141414;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29;
-    letter-spacing: -0.28px;
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
 }
 .order-textarea {
-    padding: 14px 13px;
-    width: 100%;
-    height: 91px;
-    border-radius: 15px;
-    border: 1px solid rgba(20, 20, 20, 0.20);
-    color: #141414;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29px;
-    letter-spacing: -0.28px;
-    margin-bottom: 5px;
+  padding: 14px 13px;
+  width: 100%;
+  height: 91px;
+  border-radius: 15px;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29px;
+  letter-spacing: -0.28px;
+  margin-bottom: 5px;
+  resize: none;
 }
 .order-textarea::placeholder {
-     /* padding: 14px 13px; */
-    color: #141414;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29px;
-    letter-spacing: -0.28px;
+  color: #141414;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29px;
+  letter-spacing: -0.28px;
 }
 .order-send-button {
-    display: flex;
-    width: 100%;
-    padding: 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: none;
-    border-radius: 30px;
-    background-color: #576F35;
-    color: #FBFBFB;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.29;
-    letter-spacing: -0.21px;
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #576f35;
+  color: #fbfbfb;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.21px;
 }
 .order-input:focus {
-  border-color: #7A3145;
+  border-color: #7a3145;
 }
 
 /* стилізація інпута при не валідному значенні */
 .order-input:not(:placeholder-shown):invalid {
-  border-color: #E74A3B;
+  border-color: #e74a3b;
 }
 
 /* стилізація інпута при валідному значенні */
 .order-input:not(:placeholder-shown):valid {
-  border-color: #3CBC81;
+  border-color: #3cbc81;
 }
 
 .text-valid,
@@ -139,11 +147,11 @@
 }
 
 .text-valid {
-  color: #3CBC81;
+  color: #3cbc81;
 }
 
 .text-invalid {
-  color: #E74A3B;
+  color: #e74a3b;
 }
 
 /* стилізація інформаційного текста при валідному значенні в інпуті */
@@ -157,142 +165,141 @@
 }
 
 .order-send-button:is(:hover, :focus) {
-   border-color: brown;
+  border-color: brown;
 }
 .pic_container {
-    width: 100%;
-    border-radius: 30px;
-    background-color: #576F35;
-    padding: 40px 20px;
+  width: 100%;
+  border-radius: 30px;
+  background-color: #576f35;
+  padding: 40px 20px;
 }
 
 .order_item-pic {
-    border-radius: 15px;
-    margin-bottom: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 .order_social-paragraph {
-    color: rgba(251, 251, 251, 0.50);
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.29;
-    letter-spacing: -0.21px;
-    margin-bottom: 14px;
+  color: rgba(251, 251, 251, 0.5);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.21px;
+  margin-bottom: 14px;
 }
 .order_social-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 .social_text {
-    color: #FBFBFB;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.08;
-    letter-spacing: -0.36px;
+  color: #fbfbfb;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -0.36px;
 }
 @media screen and (min-width: 768px) {
-    .your-order {
-        padding: 100px 0;
-    }
-    .your-order_container {
-        width: 628px;
-    }
-    .your-order_description {
-        margin-bottom: 50px;
-    }
+  .your-order {
+    padding: 100px 0;
+  }
+  .your-order_container {
+    width: 768px;
+  }
+  .your-order_description {
+    margin-bottom: 50px;
+  }
 
-    .your-order_header {
-        font-size: 64px;
-        line-height: 1.0;
-        letter-spacing: -0.96px;
-        margin-bottom: 25px;
-    }
-    .your-order_text {
-        font-size: 16px;
-        line-height: 1.26;
-    }
-    .your-order_form-and-pic {
-        padding: 0 38px;
-    }
-    .form_container {
-        padding: 50px 100px;
-        margin-bottom: 25px;
-    }
-    .form-header-paragraph {
-        margin-bottom: 50px;
-    }
-    .order-input {
-        height: 52px;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        font-size: 16px;
-        line-height: 1.26;
-        letter-spacing: -0.32px;
-    }
-    .order-input::placeholder {
-        font-size: 16px;
-        line-height: 1.26;
-        letter-spacing: -0.32px;
-    }
-    .order-textarea {
-        padding-top: 16px;
-        padding-bottom: 16px;
-        height: 95px;
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.32px;
-    }
-    .order-textarea::placeholder {
-        
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.32px;        
-    }
-    .order-send-button {
-        font-size: 18px;
-        line-height: 1.11;
-        letter-spacing: -0.27px;
-    }
-    .pic_container {
-        padding: 50px;
-    }
-    .order_item-pic {
-        margin-bottom: 50px;
-    }
-    .order_social-paragraph {
-        font-size: 18px;
-        line-height: 1.11;
-        letter-spacing: -0.27px;
-    }
-    .order_social-list {
-        gap: 12px;
-    }
-    .social_text {
-        font-size: 32px;
-        line-height: 1.0;
-        letter-spacing: -0.48px;
-    }
+  .your-order_header {
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: -0.96px;
+    margin-bottom: 25px;
+  }
+  .your-order_text {
+    font-size: 16px;
+    line-height: 1.26;
+  }
+  .your-order_form-and-pic {
+    padding: 0 38px;
+  }
+  .form_container {
+    padding: 50px 100px;
+    margin-bottom: 25px;
+  }
+  .form-header-paragraph {
+    margin-bottom: 50px;
+  }
+  .order-input {
+    height: 52px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.26;
+    letter-spacing: -0.32px;
+  }
+  .order-input::placeholder {
+    font-size: 16px;
+    line-height: 1.26;
+    letter-spacing: -0.32px;
+  }
+  .order-textarea {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 95px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+  .order-textarea::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+  .order-send-button {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.27px;
+  }
+  .pic_container {
+    padding: 50px;
+  }
+  .order_item-pic {
+    margin-bottom: 50px;
+  }
+  .order_social-paragraph {
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.27px;
+  }
+  .order_social-list {
+    gap: 12px;
+  }
+  .social_text {
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.48px;
+  }
 }
 @media screen and (min-width: 1280px) {
-    .your-order {
-        padding: 100px 0;
-    }
-    .your-order_container {
-        width: 1080px;
-    }
-    .your-order_description {
-        margin-bottom: 50px;
-    }
-    .your-order_form-and-pic {
-        flex-wrap: nowrap;
-        gap: 24px;
-    }
-    .form_container {
-        width: calc(100% - 24px / 2);
-        padding: 50px;
-        margin-bottom: 0;
-    }
-    .order_social-paragraph {
-        margin-bottom: 15px;
-    }
+  .your-order {
+    padding: 100px 0;
+  }
+  .your-order_container {
+    width: 1280px;
+  }
+  .your-order_description {
+    margin-bottom: 50px;
+  }
+  .your-order_form-and-pic {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .form_container {
+    width: calc(100% - 24px / 2);
+    padding: 50px;
+    margin-bottom: 0;
+  }
+  .order_social-paragraph {
+    margin-bottom: 15px;
+  }
 }

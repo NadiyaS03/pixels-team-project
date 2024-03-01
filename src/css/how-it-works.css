@@ -1,4 +1,5 @@
 .how-it-works {
+  max-width: 375px;
 }
 
 .visually-hidden {
@@ -20,6 +21,11 @@
 }
 
 .how-it-works-image {
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 20, 20, 0.3),
+    rgba(20, 20, 20, 0.3)
+  );
   margin: 0 auto;
   border-radius: 30px;
 }
@@ -32,7 +38,6 @@
   flex-direction: column;
 }
 .how-it-works-title {
-  width: 335px;
   line-height: 1;
   letter-spacing: -0.01em;
   color: #fbfbfb;
@@ -67,7 +72,7 @@
   display: flex;
   border-radius: 15px;
   padding: 12px 27px 12px 24px;
-  min-width: 335px;
+  max-width: 335px;
   height: 76px;
   list-style: none;
   background-color: #fbfbfb;
@@ -105,4 +110,57 @@
 .how-it-works-item-text-span {
   font-weight: 700;
   color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .how-it-works-text-container {
+    padding: 100px 159px;
+  }
+
+  .how-it-works-title {
+    max-width: 450px;
+    font-size: 32px;
+  }
+
+  .how-it-works-span-title {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  .how-it-works-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 450px;
+    margin-bottom: 30px;
+  }
+
+  .how-it-works-item {
+    max-width: 450px;
+  }
+
+  .how-it-works-item-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.6);
+  }
+
+  .how-it-works-item-text-span {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    width: 650px;
+  }
+
+  .how-it-works-text-container {
+    padding: 100px 100px 160px 100px;
+  }
 }

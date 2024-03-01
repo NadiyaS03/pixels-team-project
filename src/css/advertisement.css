@@ -1,9 +1,6 @@
-
-
-    .container {
+.container {
       max-width: 375px;   
     }
-   
   
   @media screen and (min-width: 768px) {
     .container {
@@ -17,10 +14,11 @@
   }
 .advertisement { 
     width: 100%;
-        margin: 0 auto;
+     margin: 0 auto;
     
 }
 .textdiv{
+    max-width: 375px;
     padding: 80px 10px;
 }
     
@@ -53,6 +51,8 @@ letter-spacing: -0.72px;
 text-transform: uppercase;}
 
  @media screen and (min-width: 768px) {
+ .textdiv{
+    max-width: 768px;}
     .text-discount{ 
         padding-top: 8px;
     padding-left: 16px;
@@ -62,6 +62,8 @@ text-transform: uppercase;}
   }}
 
 @media screen and (min-width: 1158px) {
+    .textdiv{
+        max-width: 1158px;}
     .text-discount{
     display: inline-block;
     padding-top: 0;

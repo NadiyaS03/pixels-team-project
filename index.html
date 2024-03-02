@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/pixels-team-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/pixels-team-project/assets/index-3a726f4d.css">
+    <link rel="stylesheet" href="/pixels-team-project/assets/index-f15ba785.css">
   </head>
 
   <body>
@@ -87,13 +87,20 @@
       <section class="how-it-works" id="how-it-works-id">
   <h2 class="visually-hidden">How it works</h2>
   <div class="how-it-works-image-container container">
-    <img
-      class="how-it-works-image"
-      srcset="/pixels-team-project/assets/how-mobile-99de4e1a.jpg 1x, /pixels-team-project/assets/how-mobile-2x-541d58d6.jpg 2x"
-      src="/pixels-team-project/assets/how-mobile-99de4e1a.jpg"
-      alt="Cooking woman"
-      width="335"
-      height="450"
+    <picture>
+      <source
+        media="min-width: 320px"
+        srcset="/pixels-team-project/assets/how-mobile-99de4e1a.jpg 1x, /pixels-team-project/assets/how-mobile-2x-541d58d6.jpg 2x"
+        src="/pixels-team-project/assets/how-mobile-99de4e1a.jpg"
+      />
+    </picture>
+    <source
+      media="(min-width: 768px)"
+      srcset="./img/how-laptop.jpg 1x, ./img/how-laptop-2x 2x"
+    />
+    <source
+      media="(min-width: 1158px)"
+      srcset="./img/how-desktop.jpg 1x, ./img/how-desktop-2x 2x"
     />
   </div>
   <div class="how-it-works-text-container container">

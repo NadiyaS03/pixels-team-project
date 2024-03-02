@@ -113,11 +113,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
+  .how-it-works-image-container {
     width: 768px;
   }
 
   .how-it-works-text-container {
+    width: 768px;
     padding: 100px 159px;
   }
 
@@ -154,13 +155,15 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .container {
+@media screen and (min-width: 1158px) {
+  .how-it-works-image-container {
     display: flex;
     width: 650px;
   }
 
   .how-it-works-text-container {
+    display: flex;
+    width: 650px;
     padding: 100px 100px 160px 100px;
   }
 }

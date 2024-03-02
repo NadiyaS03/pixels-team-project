@@ -1,51 +1,10 @@
-.container {
+.advertisement {
+  background: #fbfbfb;
+}
+.adv-div {
   max-width: 375px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media screen and (min-width: 768px) {
-.container {
-  max-width: 768px;
-}
-}
-@media screen and (min-width: 1280px) {
-.container {
-  max-width: 1280px;
-}
-}
-
-.advertisement { 
-  width: 100%; 
-}
-.section{
-  padding: 80px 0;
+  padding: 80px 10px;
   margin: 0 auto;
-}
-.textdiv{
-  max-width: 375px;
-  margin: 0 auto;
-} 
-
-.text {
-  color: #141414;
-  font-family: "Inter Tight", sans-serif;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 1.04; /* 104.167% */
-  letter-spacing: -0.015em;
-  text-transform: uppercase;}
-   
-
-.span-p {
-  color: #fbfbff;
-background-color: #576F35;
-margin: 0 -10px;
-display: flex;
-padding: 0 10px;
-border-radius: 12px;
-
 }
 .visually-hidden {
   width: 1px;
@@ -58,51 +17,63 @@ border-radius: 12px;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.adv-text {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 0.96;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-transform: uppercase;
+}
 
+.adv-span {
+  display: block;
+  font-weight: 700;
+  text-align: left;
+  background-color: #576f35;
+  border-radius: 12px;
+  padding: 10px;
+  color: #fbfbfb;
+}
 
-
-@media screen and (min-width: 768px) {
-  .section{
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .adv-div {
+    max-width: 768px;
     padding: 100px 0;
   }
-.textdiv{
-  max-width: 768px;
-  padding: 0px 32px;
-}
-  .span-p{
-    margin: 0 -16px;
+  .adv-text {
+    position: relative;
+    left: 16px;
+    max-width: 704px;
+    font-size: 64px;
+    letter-spacing: -0.96px;
     padding: 0 16px;
   }
-.text{
-  font-size: 64px;
-line-height: 1.09; /* 109.375% */
-letter-spacing: -0.015em;
-width: 704px;
+  .adv-span {
+    position: relative;
+    right: 16px;
+    bottom: -6px;
+    min-width: 736px;
+    font-weight: 600;
+    padding: 8px 16px;
+  }
 }
-}
-
 @media screen and (min-width: 1280px) {
-
-  .textdiv{
+  .adv-div {
+    position: relative;
+    left: 16px;
     max-width: 1280px;
-    padding:0 100px;
-
+    padding: 100px;
+  }
+  .adv-text {
+    font-size: 76px;
+    line-height: 1.05;
+  }
+  .adv-span {
+    display: inline-block;
+    padding: 16px;
+    position: relative;
+    right: 16px;
+    bottom: -6px;
+  }
 }
-.span-p{
-  margin-right: 7px;
-  padding: 0 13px;
-  display: inline-flex;
- min-width: 808px;
-
-}   
-.text{
-  width: 1054px;
-  display: inline;
-  padding: 0;
-  font-size: 76px;
-line-height: 1.05; /* 105.263% */
-letter-spacing: -0.015em;
-}   
-}
-
-

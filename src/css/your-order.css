@@ -2,16 +2,8 @@
   background: #7a3145;
   padding: 80px 0;
 }
-@media screen and (max-width: 374px) {
-  .your-order {
-    max-width: 374px;
-  }
-  .your-order_container {
-    max-width: 320px;
-  }
-}
 .your-order_container {
-  width: 375px;
+  max-width: 375px;
   margin: 0 auto;
 }
 .your-order_description {
@@ -34,6 +26,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.29;
+  letter-spacing: -0.03em;
 }
 .your-order_form-and-pic {
   display: flex;
@@ -50,7 +43,7 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 1.08;
-  letter-spacing: -0.36px;
+  letter-spacing: -0.06em;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -173,17 +166,35 @@
   background-color: #576f35;
   padding: 40px 20px;
 }
-
-.order_item-pic {
-  border-radius: 15px;
-  margin-bottom: 20px;
+.gradient {
+	display: block;
+	position: relative;    
+	line-height: 0;
 }
+.gradient:after {
+  border-radius: 15px;
+  content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+  background-image: linear-gradient(rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30));
+}
+.order_item-pic {
+  width: 100%;
+  border-radius: 15px;
+}
+
 .order_social-paragraph {
   color: rgba(251, 251, 251, 0.5);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.29;
-  letter-spacing: -0.21px;
+  letter-spacing: -0.03em;
+  margin-top: 20px;
   margin-bottom: 14px;
 }
 .order_social-list {
@@ -203,12 +214,14 @@
     padding: 100px 0;
   }
   .your-order_container {
-    width: 768px;
+    max-width: 768px;
   }
   .your-order_description {
     margin-bottom: 50px;
   }
-
+  .your-order_form-and-pic {
+    margin: 0 38px;
+  }
   .your-order_header {
     font-size: 64px;
     line-height: 1;
@@ -218,9 +231,6 @@
   .your-order_text {
     font-size: 16px;
     line-height: 1.26;
-  }
-  .your-order_form-and-pic {
-    padding: 0 38px;
   }
   .form_container {
     padding: 50px 100px;
@@ -269,7 +279,7 @@
   .order_social-paragraph {
     font-size: 18px;
     line-height: 1.11;
-    letter-spacing: -0.27px;
+    letter-spacing: -0.03em;
   }
   .order_social-list {
     gap: 12px;
@@ -285,7 +295,7 @@
     padding: 100px 0;
   }
   .your-order_container {
-    width: 1280px;
+    max-width: 1280px;
   }
   .your-order_description {
     margin-bottom: 50px;
@@ -294,6 +304,7 @@
   .your-order_form-and-pic {
     flex-wrap: nowrap;
     gap: 24px;
+    margin: 0 0;
   }
   .form_container {
     width: calc(100% - 24px / 2);

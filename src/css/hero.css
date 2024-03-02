@@ -1,1 +1,60 @@
+.main-section {
+  background: linear-gradient(
+      0deg,
+      rgba(20, 20, 20, 0.2) 0%,
+      rgba(20, 20, 20, 0.2) 100%
+    ),
+    url(./images/hero_img/image\ 3@1x_Desk.jpg);
 
+  background-color: #576f35;
+
+  background-position: top right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.hero-container {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  /*
+  padding-left: 100px;
+  padding-right: 28px;
+*/
+  padding: auto;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-title {
+  padding-top: 154px;
+  color: var(--main-color);
+  width: 502px;
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 76px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  padding-left: 100px;
+  padding-right: 28px;
+  padding-bottom: 128px;
+}
+
+.hero-description {
+  color: var(--main-color);
+
+  width: 472px;
+
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 20px;
+  padding-bottom: 50px;
+}

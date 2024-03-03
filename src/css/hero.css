@@ -38,7 +38,7 @@
   }
 }
 .hero-content {
-  padding: 0;
+  padding: 0 20px;
   margin: 0 auto;
   max-width: 335px;
 }
@@ -64,16 +64,6 @@
   padding-bottom: 40px;
 }
 
-/* @media only screen and (min-width: 1280px) {
-  .hero,
-  .header {
-    background-color: #576f35;
-    background-image: url(../img/vegetables.jpg);
-    background-position: top right;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-} */
 @media only screen and (min-width: 375px) and (max-width: 767px) {
   .hero-title {
     font-size: 48px;
@@ -81,6 +71,7 @@
   }
   .hero-content {
     width: 335px;
+    margin: 0;
   }
   .hero-text {
     width: 335px;
@@ -101,6 +92,7 @@
     display: inline-block;
     font-size: 76px;
     line-height: 76px;
+    letter-spacing: -0.015em;
     font-style: normal;
     font-weight: 600;
     text-transform: uppercase;
@@ -141,7 +133,23 @@
   }
 }
 @media only screen and (min-width: 1280px) {
+  .hero {
+    max-height: 728px;
+  }
+  .hero-container {
+    position: relative;
+    top: -100px;
+    padding: 0 0 0 100px;
+    max-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+  }
   .hero-image {
+    padding-bottom: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
     background-color: #576f35;
     background-image: linear-gradient(
         0deg,
@@ -151,11 +159,9 @@
       url(../img/image-hero-desc.jpg);
     background-position: top right;
     min-width: 650px;
-    max-width: 100%;
-    min-height: 800px;
+    height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: -84px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -168,20 +174,15 @@
         ),
         url(../img/image-hero-desc2x.jpg);
     }
-    .hero-container {
-      padding-left: 100px;
-      max-width: 1280px;
-      display: flex;
-      flex-direction: row;
-      gap: 28px;
-    }
+
     .hero-content {
-      margin-top: 84px;
       max-width: 502px;
       padding: 0;
+      padding-top: 245px;
     }
     .hero-text {
       margin-top: 128px;
+      padding-bottom: 0;
     }
     .hero-title {
       display: inline;

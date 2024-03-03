@@ -82,9 +82,10 @@
 }
 
 .how-it-works-item::before {
+  padding-bottom: 5px;
   content: counter(number);
-  width: 42px;
-  height: 42px;
+  width: 52px;
+  height: 52px;
   background-color: #7a3145;
   border-radius: 50%;
   border: 5px solid #d3bec4;
@@ -118,11 +119,10 @@
   }
 
   .how-it-works-image-container {
-    width: 768px;
+    padding: 100px 64px;
   }
 
   .how-it-works-text-container {
-    width: 768px;
     padding: 100px 159px;
   }
 
@@ -168,12 +168,10 @@
   .how-it-works-image-container {
     padding: 100px;
     display: flex;
-    max-width: 630px;
   }
 
   .how-it-works-text-container {
     display: flex;
-    max-width: 650px;
     padding: 100px 100px 160px 100px;
   }
 }

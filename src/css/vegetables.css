@@ -1,10 +1,11 @@
 .content-vegetables {
   background: #7a3145;
+  padding: 80px 0;
 }
 .container-vegetables {
   margin: 0 auto;
   max-width: 375px;
-  padding: 80px 20px;
+  padding: 0 20px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -74,10 +75,14 @@
 }
 
 @media screen and (min-width: 768px) {
+  .content-vegetables {
+    padding: 100px 0;
+  }
+
   .container-vegetables {
     margin: 0 auto;
     max-width: 768px;
-    padding: 100px 32px;
+    padding: 0 32px;
     gap: 50px;
   }
   .card-block {
@@ -112,7 +117,7 @@
 @media screen and (min-width: 1280px) {
   .container-vegetables {
     max-width: 1280px;
-    padding: 100px;
+    padding: 0 100px;
     margin: 0 auto;
   }
   .list-vegetables {

@@ -121,9 +121,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .how-it-works {
-  }
-
   .how-it-works-container {
     display: flex;
     max-width: 768px;

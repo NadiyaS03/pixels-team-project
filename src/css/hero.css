@@ -3,7 +3,10 @@
   font-family: 'Inter Tight', sans-serif;
   padding-top: 48px;
 }
-
+.hero-container {
+  padding: 0 20px;
+  max-width: 375px;
+}
 .hero-bcg {
   background-image: linear-gradient(
       0deg,
@@ -11,29 +14,27 @@
       rgba(20, 20, 20, 0.2) 100%
     ),
     url(../img/vegetables.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  min-height: 370px;
-  min-width: 375px;
-}
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 375px;
-  justify-content: start;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 375px;
 }
 .hero-content {
   max-width: 335px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
 }
 .hero-title {
-  text-align: left;
+  text-align: start;
   color: #fbfbfb;
-  font-size: 48px;
+  font-size: 42px;
   font-style: normal;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
   gap: 20px;
 }
@@ -54,5 +55,13 @@
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 375px) {
+  .hero-title {
+    font-size: 48px;
+  }
+  .hero-content {
+    width: 335px;
   }
 }

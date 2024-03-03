@@ -2,26 +2,26 @@
   <div class="how-it-works-container">
     <h2 class="visually-hidden">How it works</h2>
     <div class="how-it-works-image-container">
-      <picture>
-        <source
-          media="max-width: 767px"
-          srcset="./img/how-mobile.jpg 1x, ./img/how-mobile-2x.jpg 2x"
-        />
-      </picture>
-      <source
-        media="(min-width: 768px)"
-        srcset="./img/how-laptop.jpg 1x, ./img/how-laptop-2x.jpg 2x"
-      />
-      <source
-        media="(min-width: 1158px)"
-        srcset="./img/how-desktop.jpg 1x, ./img/how-desktop-2x.jpg 2x"
-      />
-      <img
-        class="how-it-works-image"
-        src="./img/how-desktop.jpg"
-        alt="a woman is chopping a fruits"
-        width="430"
-      />
+      <picture class="image-gradient">
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/how-desktop.jpg, ./img/how-desktop-2x.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./img/how-laptop.jpg 1x, ./img/how-laptop-2x.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./img/how-mobile.jpg 1x, ./img/how-mobile-2x.jpg 2x"
+          />
+          <img
+            src="./img/how-mobile.jpg"
+            alt="a woman is chopping a fruits"
+            class="how-it-works-image"
+            width="640"
+          />
+        </picture>
     </div>
     <div class="how-it-works-text-container">
       <p class="how-it-works-title">

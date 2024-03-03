@@ -79,7 +79,7 @@
 }
 @media only screen and (min-width: 768px) {
   .hero-container {
-    display: block;
+    display: flex;
     padding: 0;
     max-width: 768px;
   }
@@ -87,9 +87,9 @@
     max-width: 704px;
     padding: 0;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
   .hero-title {
-    display: inline-block;
     font-size: 76px;
     line-height: 76px;
     letter-spacing: -0.015em;
@@ -103,7 +103,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.25;
-    padding-bottom: 40px;
+    padding-bottom: 0;
   }
   .hero-image {
     margin: 0;
@@ -176,16 +176,27 @@
     }
 
     .hero-content {
+      display: flex;
+      flex-direction: column;
+      gap: 128px;
       max-width: 502px;
       padding: 0;
-      padding-top: 245px;
+      padding-top: 0;
     }
     .hero-text {
-      margin-top: 128px;
       padding-bottom: 0;
+      width: 472px;
+      height: 80px;
     }
     .hero-title {
-      display: inline;
+      margin: 0 40px 0 0;
+      padding-top: 226px;
+      display: flex;
+      text-wrap: wrap;
+      width: 472px;
+      font-size: 76px;
+      line-height: 76px;
+      letter-spacing: -0.015em;
     }
   }
 }

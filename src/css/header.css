@@ -8,7 +8,6 @@
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-
   max-width: 375px;
   margin: 0 auto;
 }
@@ -113,7 +112,7 @@
 
     background-color: #7a3145;
 
-    font-family: "Inter Tight", sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.11111;
@@ -132,7 +131,6 @@
 }
 /* #endregion Header */
 
-
 /* #region Mobile menu */
 .mobile-menu {
   /* max-width: 375px; */
@@ -145,7 +143,7 @@
   width: 100%;
   height: 100%;
   padding: 240px 110px 40px;
-  background-color: #7A3145;
+  background-color: #7a3145;
   transition: transform 300ms ease-out;
 }
 .mobile-menu.is-open {
@@ -166,7 +164,7 @@
   border: none;
   background-color: #7a3145;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* .mobile-menu-btn-icon {
   fill: #2e2f42;
@@ -209,27 +207,27 @@
   .mobile-menu-nav-link:focus {
     border: 1px solid rgba(251, 251, 251, 0.25);
   } */
-  .mobile-menu-nav-link.current {
-    color: #7a3145;
-    padding: 12px 16px;
-    background: #fbfbfb;
-  }
-  .mobile-menu-nav-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 30px;
-    padding: 16px 41px;
-    width: 155px;
-    height: 50px;
-    background: #fbfbfb;
-    font-family: "Inter Tight", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #7a3145;
-  }
+.mobile-menu-nav-link.current {
+  color: #7a3145;
+  padding: 12px 16px;
+  background: #fbfbfb;
+}
+.mobile-menu-nav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 30px;
+  padding: 16px 41px;
+  width: 155px;
+  height: 50px;
+  background: #fbfbfb;
+  font-family: 'Inter Tight', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #7a3145;
+}
 /* #endregion Mobile menu */

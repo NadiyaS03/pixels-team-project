@@ -1,13 +1,18 @@
 /* #region Header */
 .header {
-  background-color: #576f35;
+  /* background-color: #576f35; */
+  background-color: transparent;
 }
 .header-container {
+  width: 100%;
+  position: fixed;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 48px;
+
   max-width: 375px;
   margin: 0 auto;
 }
@@ -192,8 +197,8 @@
   padding: 12px 24px;
   border: 1px solid rgba(251, 251, 251, 0.4);
   border-radius: 12px;
-  min-width: 115px;
-  min-height: 42px;
+  width: 115px;
+  height: 42px;
 
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;

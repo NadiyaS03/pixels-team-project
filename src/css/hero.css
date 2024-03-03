@@ -34,7 +34,7 @@
         rgba(20, 20, 20, 0.2),
         rgba(20, 20, 20, 0.2)
       ),
-      url(../img/image-hero-mob2x.jpg);
+      url(./img/image-hero-mob2x.jpg);
   }
 }
 .hero-content {
@@ -128,7 +128,7 @@
           rgba(20, 20, 20, 0.2),
           rgba(20, 20, 20, 0.2)
         ),
-        url(../img/image-hero-tab2x.jpg);
+        url(./img/image-hero-tab2x.jpg);
     }
   }
 }
@@ -156,7 +156,7 @@
         rgba(20, 20, 20, 0.2) 0%,
         rgba(20, 20, 20, 0.2) 100%
       ),
-      url(../img/image-hero-desc.jpg);
+      url(./img/image-hero-desc.jpg);
     background-position: top right;
     min-width: 650px;
     height: 800px;
@@ -172,7 +172,7 @@
           rgba(20, 20, 20, 0.2) 0%,
           rgba(20, 20, 20, 0.2) 100%
         ),
-        url(../img/image-hero-desc2x.jpg);
+        url(./img/image-hero-desc2x.jpg);
     }
 
     .hero-content {

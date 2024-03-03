@@ -11,14 +11,11 @@
   background-repeat: no-repeat;
 }
 
-.container {
-  display: inline-flex;
-  background-color: var(--background);
-}
-
 .hero {
   width: 670px;
   padding-right: 0%;
+  display: inline-flex;
+  background-color: var(--background);
 }
 
 .hero-container {
@@ -32,7 +29,7 @@
   font-size: 76px;
   font-style: normal;
   font-weight: 600;
-  line-height: 76px; /* 100% */
+  line-height: 1;
   text-transform: uppercase;
   letter-spacing: -0.01em;
 }

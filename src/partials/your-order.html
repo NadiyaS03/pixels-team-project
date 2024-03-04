@@ -2,7 +2,8 @@
   <div class="container your-order_container">
     <div class="your-order_description">
       <h3 class="your-order_header">
-        Fresh <span class="your-order_span">Harvest</span> Box has got you covered
+        Fresh <span class="your-order_span">Harvest</span> Box has got you
+        covered
       </h3>
       <p class="your-order_text">
         Our boxes are packed with delicious, nutritious vegetables, perfect for
@@ -22,19 +23,21 @@
             <input
               type="text"
               name="user-name"
-              id=""
+              id="user-name"
               class="order-input"
-              placeholder="Full Name" required
+              placeholder="Full Name"
+              required
             />
           </div>
           <div class="order-field">
             <input
               type="email"
               name="user-email"
-              id=""
+              id="user-email"
               class="order-input"
               placeholder="Email"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
             />
             <p class="text-valid">Succes!</p>
             <p class="text-invalid">Invalid email, try again</p>
@@ -42,7 +45,7 @@
           <div class="order-field-textarea">
             <textarea
               name="user-comment"
-              id=""
+              id="user-comment"
               class="order-textarea"
               placeholder="Comment"
             ></textarea>
@@ -54,15 +57,24 @@
         <picture class="gradient">
           <source
             media="(min-width: 1280px)"
-            srcset="./img/your-order-pictures/your-order-1x.jpg 1x, ./img/your-order-pictures/your-order-2x.jpg 2x"
+            srcset="
+              ./img/your-order-pictures/your-order-1x.jpg 1x,
+              ./img/your-order-pictures/your-order-2x.jpg 2x
+            "
           />
           <source
             media="(min-width: 768px)"
-            srcset="./img/your-order-pictures/your-order-tab-1x.jpg 1x, ./img/your-order-pictures/your-order-tab-2x.jpg 2x"
+            srcset="
+              ./img/your-order-pictures/your-order-tab-1x.jpg 1x,
+              ./img/your-order-pictures/your-order-tab-2x.jpg 2x
+            "
           />
           <source
             media="(max-width: 767px)"
-            srcset="./img/your-order-pictures/your-order-mob-1x.jpg 1x, ./img/your-order-pictures/your-order-mob-2x.jpg 2x"
+            srcset="
+              ./img/your-order-pictures/your-order-mob-1x.jpg 1x,
+              ./img/your-order-pictures/your-order-mob-2x.jpg 2x
+            "
           />
           <img
             src="./img/your-order-pictures/your-order-mob-1x.jpg"

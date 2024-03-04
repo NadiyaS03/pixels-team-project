@@ -1,7 +1,6 @@
 .how-it-works {
-  /* max-width: 375px; */
-  /* background-color: #576f35; */
   background: linear-gradient(to top, #576f35 55.2%, #7a3145 44.8%);
+  padding: 40px 0 80px;
 }
 
 .how-it-works-container {
@@ -12,39 +11,36 @@
 }
 
 .visually-hidden {
+  visibility: hidden;
+  pointer-events: none;
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .how-it-works-image-container {
-  padding: 40px 20px;
+  padding: 0 20px 40px;
 }
 
 .image-gradient {
-    display: block;
-    position: relative;
-    line-height: 0;
+  display: block;
+  position: relative;
+  line-height: 0;
 }
 
 .image-gradient:after {
   border-radius: 30px;
-  content: "";
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: transparent;
-  background-image: linear-gradient(rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30), rgba(20, 20, 20, 0.30));
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background-image: linear-gradient(
+    rgba(20, 20, 20, 0.3),
+    rgba(20, 20, 20, 0.3),
+    rgba(20, 20, 20, 0.3)
+  );
 }
 
 .how-it-works-image {
@@ -53,7 +49,7 @@
 }
 
 .how-it-works-text-container {
-  padding: 80px 20px;
+  padding: 80px 20px 0;
   display: flex;
   flex-direction: column;
 }
@@ -90,7 +86,7 @@
   flex-direction: column;
   padding-left: 0;
   gap: 20px;
-  counter-reset: 0;
+  counter-reset: none;
 }
 
 .how-it-works-item {
@@ -107,7 +103,6 @@
 }
 
 .how-it-works-item::before {
-  padding-bottom: 5px;
   content: counter(number);
   width: 52px;
   height: 52px;
@@ -141,6 +136,7 @@
 @media screen and (min-width: 768px) {
   .how-it-works {
     background: linear-gradient(to bottom, #7a3145 54.6%, #576f35 45.4%);
+    padding: 100px 0;
   }
 
   .how-it-works-container {
@@ -149,11 +145,11 @@
   }
 
   .how-it-works-image-container {
-    padding: 100px 64px;
+    padding: 0 64px 100px;
   }
 
   .how-it-works-text-container {
-    padding: 100px 159px;
+    padding: 100px 159px 0;
   }
 
   .how-it-works-title {
@@ -192,6 +188,7 @@
 @media screen and (min-width: 1280px) {
   .how-it-works {
     background: linear-gradient(to left, #576f35 50.8%, #7a3145 49.2%);
+    padding: 100px 0;
   }
 
   .how-it-works-container {
@@ -203,12 +200,11 @@
 
   .how-it-works-image-container {
     display: flex;
-    padding: 100px 0 100px 100px;
+    padding: 0 0 0 100px;
   }
 
   .how-it-works-text-container {
-    /* background-color: #576f35; */
     display: flex;
-    padding: 100px  100px 100px 0;
+    padding: 0 100px 0 0;
   }
 }

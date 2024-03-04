@@ -4,14 +4,6 @@
   background-color: #7a3145;
   row-gap: 80px;
 }
-/* @media screen and (max-width: 374px) {
-  .footer {
-    max-width: 374px;
-  }
-  .footer_container {
-    max-width: 320px;
-  }
-} */
 .footer_container {
   max-width: 375px;
   margin: 0 auto;
